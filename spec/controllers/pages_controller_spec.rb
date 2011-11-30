@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> static-pages
 require 'spec_helper'
 
 describe PagesController do
@@ -8,6 +12,7 @@ describe PagesController do
       get 'home'
       response.should be_success
     end
+<<<<<<< HEAD
 
     it "should have the right title" do
       get 'home'
@@ -28,6 +33,15 @@ describe PagesController do
                         :content =>
                           "Ruby on Rails Tutorial Sample App | Contact")
     end
+=======
+  end
+
+  describe "GET 'contac'" do
+    it "should be successful" do
+      get 'contac'
+      response.should be_success
+    end
+>>>>>>> static-pages
   end
 
   describe "GET 'about'" do
@@ -35,6 +49,7 @@ describe PagesController do
       get 'about'
       response.should be_success
     end
+<<<<<<< HEAD
 
     it "should have the right title" do
       get 'about'
@@ -45,3 +60,7 @@ describe PagesController do
   end
 end
 
+=======
+  end
+end
+>>>>>>> static-pages
