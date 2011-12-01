@@ -1,5 +1,4 @@
 class PagesController < ApplicationController
-<<<<<<< HEAD
   
   def home
    @title = "Home"
@@ -9,17 +8,7 @@ class PagesController < ApplicationController
    @title = "Contact"
   end
 
- def about
-  @title = "About"
-=======
-
-  def home
-  end
-
-  def contac
-  end
-
   def about
->>>>>>> static-pages
+  @title = "About"
   end
 end
